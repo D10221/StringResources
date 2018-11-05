@@ -3,15 +3,20 @@
   <PropertyGroup>
     <DefaultNamespace>D10221</DefaultNamespace>
     <PackageId>StringResources</PackageId>
-    <Title>String Resources Associated by Convention</Title>
-    <Description>String Resources Associated by Convetion</Description>
+    <Title>String Resources</Title>
+    <Description>Find embbeded strings by convention</Description>
     <Version>1.0.0</Version>
     <Authors>D10221</Authors>
     <PackageProjectUrl>https://github.com/D10221/StringResources</PackageProjectUrl>
     <RepositoryUrl>https://github.com/D10221/StringResources.git</RepositoryUrl>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <TargetFramework>netstandard2.0;</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageIconUrl>https://raw.githubusercontent.com/D10221/resources/master/d10221.png</PackageIconUrl>
+    <Copyright>2018</Copyright>
+    <PackageTags>String;Embedded;Resource</PackageTags>
+    <PackageReleaseNotes>Initial</PackageReleaseNotes>    
+    
   </PropertyGroup>
 
 </Project>
