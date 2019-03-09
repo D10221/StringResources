@@ -2,3 +2,7 @@
 **/obj/*
 **/.vscode/*
 **/.idea/*
+*.zip
+*.db
+*.tar.gz
+*.log
