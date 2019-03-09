@@ -1,13 +1,14 @@
 using System;
 using System.Linq;
 using D10221;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace StringResources.Tests
 {
+    [TestClass]
     public class Tests
     {
-        [Test]
+        [TestMethod]
         public void Test1()
         {
             Assert.AreEqual(
@@ -15,7 +16,7 @@ namespace StringResources.Tests
                "select 1 as One"
            );
         }
-        [Test]
+        [TestMethod]
         public void Test2()
         {
             Exception ex = null;
@@ -29,7 +30,7 @@ namespace StringResources.Tests
             }
             Assert.IsNotNull(ex);
         }
-        [Test]
+        [TestMethod]
         public void Test3()
         {
             Assert.AreEqual(

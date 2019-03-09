@@ -3,12 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <LangVersion>latest</LangVersion>    
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="nunit" Version="3.10.1" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+  <ItemGroup>    
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+     <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
     <ProjectReference Include="..\StringResources\StringResources.csproj" />
     <EmbeddedResource Include="Tests.One.sql" />
     <EmbeddedResource Include="Tests.Two.sql" />
